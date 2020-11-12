@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/accc4403b9.js" ossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+   <!--Eric Meyer reset-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  
+  <!-- CSS file link-->
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  
+
+ <title>Color Clock</title>
+
+</head>
+
+<body>
+
+    <div class="container" id='container'> 
+        <div class="btn-container">
+            <button onclick="colorClock()" class="btn btn-time">Time</button>
+            <button onclick="showDate()" class="btn btn-date">Date</button>
+        </div>  
+        <div class='clock' id="clock"> 12:13:15 </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
